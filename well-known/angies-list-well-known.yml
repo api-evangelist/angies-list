@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of /.well-known/ on Angi hosts
+host: https://www.angi.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: angies-list-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  angieslist.com redirects to angi.com; an identical security.txt is served at
+  https://www.angieslist.com/.well-known/security.txt (200). No OIDC/OAuth
+  discovery, API catalog, or AI plugin manifest is published.

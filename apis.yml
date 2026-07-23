@@ -1,9 +1,29 @@
 aid: angies-list
 name: Angie’s List
-description: Angie’s List is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Angie’s List is a consumer marketplace for finding, reviewing, and hiring local
+  home-service professionals — plumbers, electricians, roofers, landscapers, house
+  cleaners, and hundreds of other trades. Founded in 1995 by Angie Hicks and William
+  Oesterle, it pioneered member-submitted, verified reviews and letter-grade ratings
+  of service providers across U.S. metro markets. In 2017 Angie’s List merged with
+  HomeAdvisor to form ANGI Homeservices (now Angi Inc., NASDAQ: ANGI, part of IAC),
+  and in 2021 the consumer brand and website were rebranded from angieslist.com to
+  angi.com. Angi is a consumer/pro home-services platform and does not currently
+  publish a public developer API program; this API Evangelist profile tracks its
+  public web and security surface. Surfaced as a portfolio company of Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/angies-list/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.angi.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -15,9 +35,34 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Home Services
+- Marketplace
+- Reviews
+- Ratings
+- Local Services
+- Consumer
+- Contractors
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/angies-list-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.angi.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/angies-list-domain-security.yml
+- type: WellKnown
+  url: well-known/angies-list-well-known.yml
+- type: SecurityTxt
+  url: well-known/angies-list-security.txt
+- type: Website
+  url: https://www.angi.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
