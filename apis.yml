@@ -12,6 +12,17 @@ description: >-
   publish a public developer API program; this API Evangelist profile tracks its
   public web and security surface. Surfaced as a portfolio company of Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/angies-list/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
